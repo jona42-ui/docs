@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "BiteBooker Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/images/logo_bn.svg",
+    "light": "/images/logo_bn.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/favicon.ico",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -18,74 +18,77 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@bitebooker.com"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://dashboard.bitebooker.com"
   },
   "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Quickstart",
+      "url": "quickstart"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.bitebooker.com"
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://community.bitebooker.com"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://blog.bitebooker.com"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting Started",
       "pages": [
         "introduction",
         "quickstart",
-        "development"
+        "installation-and-setup",
+        "configuration"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Features",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "core-features",
+        "api-documentation",
+        "frontend-architecture",
+        "backend-integration"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Deployment",
       "pages": [
-        "api-reference/introduction"
+        "deployment",
+        "troubleshooting"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Contributing",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "contributing",
+        "license"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/bitebooker",
+    "github": "https://github.com/bitebooker-it",
+    "linkedin": "https://www.linkedin.com/company/bitebooker"
   }
 }
